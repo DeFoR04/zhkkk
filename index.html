@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>С Днём Рождения, Жанеля!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>С Днём Рождения, Жанеля!</h1>
+
+    <div class="photo">
+      <img src="1.jpeg" alt="Жанеля" />
+    </div>
+
+    <p class="intro-text">
+      С днём рождения, Жанеля!<br />
+      Пусть этот день принесёт тебе много улыбок и приятных слов.<br />
+      Хочу, чтобы у тебя всегда всё получалось, и чтобы рядом были те, кто по-настоящему ценит тебя.<br />
+      Ты хороший человек, и это всегда чувствуется.<br />
+      Оставайся собой — такой, какая ты есть.
+    </p>
+
+    <button class="btn" onclick="celebrate()">Нажми сюда</button>
+
+    <div class="hidden-msg" id="hiddenMsg">
+      Ну вот, ты нажала...<br />
+      Улыбка есть? Значит, всё не зря.<br />
+      Хорошего тебе дня и настроения!
+    </div>
+  </div>
+
+  <div class="hearts" id="hearts"></div>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
